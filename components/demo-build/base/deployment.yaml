@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: demo-build
     spec:
       containers:
-      - image: java-springboot-image:latest
+      - image: quay.io/redhat-user-workloads-stage/gtrivedi-tenant/demo-build/demo-build@sha256:1b7e725c1fa8ad1138f9e7e2270d34e1b2ecb14f8391dff601e093fd2e23864d
         name: my-java-springboot
         ports:
         - containerPort: 8081
